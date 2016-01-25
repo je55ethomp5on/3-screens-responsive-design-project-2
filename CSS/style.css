@@ -161,21 +161,12 @@ FOOTER
 }
 
 .foot {
-  float: right;
-  display: inline-block;
-  margin-right: 2.5em;
+  display: none;
 }
 
 /********************************
 MEDIA QUERIES
 *********************************/
-
-@media screen and (max-width: 767px) {
-
-  .foot {
-    display: none;
-  }
-}
 
 /********************************
 MEDIA QUERIES - TABLET 768px
@@ -195,10 +186,6 @@ MEDIA QUERIES - TABLET 768px
   .banner-text {
     text-align: left;
     font-size: 20px;
-  }
-
-  .mobile {
-    display: none;
   }
 
   .gallery li {
@@ -221,6 +208,16 @@ MEDIA QUERIES - TABLET 768px
     float: right;
     width: 45%;
     margin: 2.5%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .foot {
+    display: inline-block;
+    margin-right: 2.5em;
+    float: right;
   }
 
   .foot-name {
