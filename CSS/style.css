@@ -2,7 +2,7 @@
 GENERAL
 *********************************/
 header {
-  background-color: #C1DDED;
+  background-color: #EFF9FF;
 }
 
 header p {
@@ -74,7 +74,7 @@ HEADING
 }
 
 .banner-text {
-  padding: 2em 0;
+  padding: 0;
 }
 
 /********************************
@@ -95,6 +95,10 @@ PORTFOLIO
 .gallery li p {
   font-size: 14px;
   color: black;
+}
+
+.banner-text {
+  margin: 25px;
 }
 
 .caption-text {
@@ -175,7 +179,7 @@ MEDIA QUERIES - TABLET 768px
 
   .main-nav li {
     display: inline-block;
-    background-color: #C1DDED;
+    background-color: #EFF9FF;
   }
 
   .main-img {
@@ -186,6 +190,11 @@ MEDIA QUERIES - TABLET 768px
   .banner-text {
     text-align: left;
     font-size: 20px;
+    margin: 0 25px;
+  }
+
+  figure {
+    height: 370px;
   }
 
   .gallery li {
@@ -237,21 +246,26 @@ MEDIA QUERIES - DESKTOP 1024px
 
 @media screen and (min-width: 1024px) {
 
+  h1 {
+    float: left;
+    margin-left: 25px;
+    padding-top: 1em;
+  }
+
+  #move-right {
+    text-align: right;
+  }
+
+  figure {
+        height: 350px;
+  }
+  .portfolio-gallery {
+    margin: 0 auto;
+  }
+
   .desktop-float-left {
     float: left;
-    margin: 10px 5px 10px 0;
-    width: 30%;
-  }
-
-  .desktop-float {
-    float: left;
-    margin: 10px 2.5em;
-    width: 30%;
-  }
-
-  .desktop-float-right {
-    float: right;
-    margin: 10px 0 10px 5px;
+    margin: 1.66666%;
     width: 30%;
   }
 
