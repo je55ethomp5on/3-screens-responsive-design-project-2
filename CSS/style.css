@@ -202,10 +202,10 @@ MEDIA QUERIES - TABLET 768px
     margin: 25px;
   }
 
-  .wrapper {
+  /*.wrapper {
     clear: both;
     margin: 0 auto;
-  }
+  }*/
 
   .tablet-left {
     float: left;
@@ -225,8 +225,11 @@ MEDIA QUERIES - TABLET 768px
 
   .foot {
     display: inline-block;
-    margin-right: 2.5em;
-    float: right;
+    margin-right: .5em;
+  }
+
+  .move-right {
+    text-align: right;
   }
 
   .foot-name {
@@ -252,13 +255,14 @@ MEDIA QUERIES - DESKTOP 1024px
     padding-top: 1em;
   }
 
-  #move-right {
+  .main-nav {
     text-align: right;
   }
 
   figure {
-        height: 350px;
+    height: 350px;
   }
+
   .portfolio-gallery {
     margin: 0 auto;
   }
